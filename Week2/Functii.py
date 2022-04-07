@@ -7,11 +7,11 @@
 # def my_function(param_1):
 #     pass
 
-def suma(a, b=6):
+def suma(a: int, b: int = 6):
     if type(a) == str:
         return a
     return a + b
 
 
-my_sum = suma(1, 4)
+my_sum = suma('1', 4)
 print(my_sum)
