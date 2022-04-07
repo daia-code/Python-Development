@@ -7,7 +7,13 @@
 # def my_function(param_1):
 #     pass
 
-def suma(a: int, b: int = 6):
+def suma(a: int, b: int = 6)->(int,int):
+    """
+
+    :param a:
+    :param b:
+    :return:
+    """
     if type(a) == str:
         return a
     return a + b
