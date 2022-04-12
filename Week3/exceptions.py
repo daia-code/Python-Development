@@ -5,5 +5,9 @@ try:
 except ValueError as e:
     print("Error at value ", e)
 except Exception as e:
-    #print(e.__doc__)
+    # print(e.__doc__)
     print("You have a error at  ", e)
+else:
+    print("no exceptions at meeting")
+finally:
+    print("Compile...")
