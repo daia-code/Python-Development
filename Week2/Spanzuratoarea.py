@@ -34,5 +34,9 @@ while count_nr <= len(cuvant):
         set_litere_deja_incercate.add(user_letter)
 
 
-    # break
 
+    
+
+
+
+    
